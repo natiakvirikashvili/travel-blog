@@ -1,0 +1,877 @@
+ /* base class */
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+  /* header  */
+.header-wraper{
+    background: #d4bfb8;
+    padding: 10px 0;
+    position: relative;
+    margin-bottom: 50px;
+}
+.wrapper{
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.logo-icon {
+    max-width: 50px;
+    width: 100%;
+}
+ul {
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+}
+.burger-icon {
+    display: none;
+}
+.nav-a {  
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    font-family: lato,sans-serif;
+    font-weight: bold;
+    padding: 7px 15px;
+} 
+ 
+/* main-section 1*/
+.container {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wraper-box-mn {
+    margin: 0 auto;
+}
+.title-1 {
+    color: #697666;
+    font-size: 70px;
+    font-family: 'Caveat', cursive;
+    display: block;
+    margin: 80px 0;
+    text-align: center; 
+}
+.title-1::before {
+    content: ' ';
+    width: 30px;
+    height: 4px;
+    background-color: #697666;
+    display: inline-block;
+    margin-right: 10px;
+}
+.title-1::after {
+    content: ' ';
+    width: 30px;
+    height: 4px;
+    background-color: #697666;
+    display: inline-block;
+    margin-left: 10px;
+}
+.image-mn { 
+    padding: 12px;
+    background-color: #ecd5cd;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+}  
+.title-2 {
+    font-size: 50px; 
+    color: #697666;
+    font-family: 'Caveat', cursive;
+    margin: 60px 0;
+    text-align: center; 
+}
+.l-box {
+    display: table;
+}
+.text-p {
+    font-size: 20px;
+    color:  #697666;
+    margin-bottom: 30px;  
+    font-family: 'Roboto';
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+/* main-section 2 */
+.container2 {
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wraper-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
+    background-color: #FFFFFF;  
+}
+.title-h2 {
+    color: #697666;
+    font-size: 50px;
+    margin: 50px 0;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+.wraper-mn {
+    margin-top: 70px;
+}
+.img-mn {
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+}
+.title-3 {
+    color: #bcaaa4;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15px;
+}
+
+/* main-section 3*/ 
+.container3 {
+    max-width: 1090px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.wraper2 {   
+    background-color: #ecd5cd;
+    border-radius: 10px;
+    margin: 90px;
+    padding: 12px;
+}
+.img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.poto1,
+.poto2 {
+   max-width: 440px;
+   width: 100%;
+   height: 550px;
+} 
+ 
+/* main-section 4*/
+.container4 {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+}
+.img-1 { 
+    max-width: 1100px;
+    width: 100%;
+    margin: 30px 0;
+}
+.text-tka {
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    color: #697666;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+.left-box,
+.right-box {
+   max-width: 635px;
+   width: 100%;
+}
+.image-mn2 {
+    max-width: 500px;
+    width: 100%;
+}
+.nav-ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;   
+    text-align: top;
+}
+.ul-li {
+    color: #697666;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-bottom: 25px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;   
+    list-style-type: square; 
+}
+
+/* vietnam */
+.container6 {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
+} 
+.img-vtn1 {
+    margin: 45px 10px;
+}
+.title-vietnam1 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #697666;
+} 
+.text-vietnam1 {
+    color: #697666;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+/* image and title */
+
+.img-vtn2 { 
+    margin: 17px 150px;
+    max-width: 750px;
+    width: 100%; 
+}
+.title-vietnam2 {
+    font-family: 'Caveat', cursive;
+    color: #697666;
+    font-size: 28px;
+    text-align: center; 
+}
+
+/* Best Things vietnam */
+.container7 {
+    max-width: 1446px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title-vietnam4 {
+    font-size: 50px;
+    margin: 70px;
+    font-family: 'Caveat', cursive;
+    color: #697666;
+    text-align: center;
+}
+.box-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 25px;
+}
+.small-box {
+    max-width: 447px;
+    width: 100%;
+    height: 543px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 70px;
+    background-color: #ecd5cd;
+}
+.small-box p { 
+    width: 300px;
+    text-align: center;
+}
+.title-vietnam3 {
+    color: #463f3d;
+    font-size: 20px;
+    font-family: 'Roboto'; 
+    font-weight: 500;
+    margin: 20px;
+}
+.text-vietnam3 {
+    color: #2f2a29;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+/* japan -section 1 */
+.container-jp {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
+}
+.one-box-jp {
+    margin-left: 200px;
+}   
+.travel-img {
+    max-width: 650px;
+    width: 100%;
+}
+.title-jp1 {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    margin: 25px;
+    color: #697666;
+    text-align: center;
+    margin: 60px 0;
+} 
+.text-jp1{
+    font-size: 20px;
+    color: #697666;
+    font-family: 'Roboto';
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+/* Pseduo elements */
+
+.title-jp1::before {
+    content: ' ';
+    width: 20px;
+    height: 2px;
+    background-color: #697666;
+    display: inline-block;
+    margin-right: 10px;
+}
+.title-jp1::after {
+    content: ' ';
+    width: 20px;
+    height: 2px;
+    background-color: #697666;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* japan - section 2 */
+.container-jp2 {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.title-jp2 {
+    font-size: 50px;
+    margin: 90px;
+    font-family: 'Caveat', cursive;
+    color: #697666;
+    text-align: center;
+}
+.sights-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; 
+    -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
+    margin-top: 25px;
+}
+.small-box-jp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.img-jpn {
+    border-radius: 30px;
+}
+.text-japan {  
+    padding: 7px;
+    display: block;
+    position: relative;
+    top: -55px;
+    width: 260px;
+    background-color: #ecd5cd;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 7px;
+}
+
+/* japan - Robot Restaurant */
+.container-jp4 {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title-jp4 {
+    font-size: 30px; 
+    color: #697666;
+    font-family: 'Caveat', cursive;
+    margin: 20px 15px 60px 15px;
+    text-align: top;
+}
+.text-jpn {
+    max-width: 400px;
+    width: 100%;
+    font-size: 30px;
+    color: #697666;
+    font-family: 'Caveat', cursive;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.img-jpn2 {
+    max-width: 700px;
+    width: 100;
+    height: 660px;
+}
+
+/* japan- Things to DO */
+.container-jpn3 {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wraper-jp {
+    background-color: #ecd5cd;
+    margin: 70px auto;
+    border-radius: 50px;
+}
+.title-jp3 {
+    font-size: 40px;
+    padding: 20px 0;
+    font-family: 'Caveat', cursive;
+    color: #697666;
+    text-align: center;
+}
+.box1-jp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+}
+.img-jp2 {
+    max-width: 500px;
+    width: 100%; 
+    -webkit-box-align: end; 
+        -ms-flex-align: end; 
+            align-items: flex-end;
+    margin: 0 20px 50px 80px;
+}
+.ul-jp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style-type: square;
+}
+.li-jp {
+    font-size: 20px;
+    color: #697666;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+
+/* brazil  Christ the Redeemer */
+.container-br2 {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wraper-br2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.title-br2 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 60px; 
+    color: #697666;
+}
+.text-br2 {  
+    color: #697666;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-align: center;  
+    width: 740px; 
+    display: block;
+    position: relative;
+    top: -30px;
+    padding: 10px;
+    background-color: #ecd5cd;
+    border-radius: 7px;
+    border: 1px solid #d4bfb8;     
+}
+
+/* brazil texts */
+.container-br1 {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title-br1 {
+    color: #697666;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin: 25px;
+}
+.text-br1 {  
+    color: #697666;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 35px; 
+}
+
+/* Pseduo elements */
+
+.title-br1::before {
+    content: ' ';
+    width: 20px;
+    height: 2px;
+    background-color: #697666;
+    display: inline-block;
+    margin-right: 10px;
+}
+.title-br1::after {
+    content: ' ';
+    width: 20px;
+    height: 2px;
+    background-color: #697666;
+    display: inline-block;
+    margin-left: 10px;
+} 
+
+/* carnaval */
+.container-br3 {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+} 
+.wraper-br3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 70px;
+}
+.box-br3 {
+    width: 350px;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.text-br3 {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: normal;
+    opacity: 1;
+    color: #73736F;
+}
+.img-br3 {
+   max-width: 350px;
+   width: 100%;
+   height: 250px;
+}
+/* Beaches in Brazil */
+.container-br4 {
+    max-width: 1090px;
+    width: 100%;
+    margin: 0 auto;
+}
+.image-br4 {
+    margin-top: 40px;
+    margin-left: 80px;
+}    
+.img-br4 {
+    max-width: 750px;
+    width: 100%;
+    margin: 40px;
+}
+.title-br4 {  
+    color: #697666;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text-br4 {
+    color: #73736F;
+    font-size: 19px;
+    font-family: 'Roboto';
+    opacity: 1;
+    font-weight: 500;
+    margin: 25px;
+    text-align: center;
+}
+.sights-br {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
+    -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
+    margin: 25px auto;
+}
+.small-box-br {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 360px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.img-br5 {
+   max-width: 350px;
+   width: 100%;
+   height: 270px;
+}
+.head-br1 {  
+    padding: 7px;
+    display: block;
+    position: relative;
+    top: -20px;
+    left: -3px;
+    width: 150px;
+    background-color: #ecd5cd;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 7px;
+}
+
+/* Contact */ 
+
+.container-contact {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+.contact-img {
+  display: block;
+  margin: 50px  0;
+}
+.textarea-field {
+    margin-bottom: 120px;
+}
+.ta-text {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;    
+    border: 2px solid #ccc;
+    font-size: 14px;   
+    color: #CECECE; 
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    resize: none;
+}
+.container-contact2 {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+}
+.name-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    -ms-flex-pack: distribute;  
+        justify-content: space-around;  
+    -webkit-box-align: center;  
+        -ms-flex-align: center;  
+            align-items: center;
+}
+.username-field,
+.email-field,
+.send-field {
+    max-width: 562px;
+    width: 100%;
+    height: 70px;
+    margin-right: 50px;
+}
+.subject-field {
+    max-width: 150px;
+    width: 100%;
+    cursor: pointer; 
+}
+.text-area,
+.name-text,
+.email-tx {
+    max-width: 562px;
+    width: 100%;
+    height: 60px;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+}
+.text-area::-webkit-input-placeholder, .name-text::-webkit-input-placeholder, .email-tx::-webkit-input-placeholder {
+    padding-left: 20px;
+    color: #737373;
+    font-size: 13px;
+    max-width: 282px;
+    width: 100%;
+}
+.text-area::-moz-placeholder, .name-text::-moz-placeholder, .email-tx::-moz-placeholder {
+    padding-left: 20px;
+    color: #737373;
+    font-size: 13px;
+    max-width: 282px;
+    width: 100%;
+}
+.text-area:-ms-input-placeholder, .name-text:-ms-input-placeholder, .email-tx:-ms-input-placeholder {
+    padding-left: 20px;
+    color: #737373;
+    font-size: 13px;
+    max-width: 282px;
+    width: 100%;
+}
+.text-area::-ms-input-placeholder, .name-text::-ms-input-placeholder, .email-tx::-ms-input-placeholder {
+    padding-left: 20px;
+    color: #737373;
+    font-size: 13px;
+    max-width: 282px;
+    width: 100%;
+}
+.text-area::placeholder,
+.name-text::placeholder,
+.email-tx::placeholder {
+    padding-left: 20px;
+    color: #737373;
+    font-size: 13px;
+    max-width: 282px;
+    width: 100%;
+}
+.click {
+    max-width: 242px;
+    width: 100%;
+    height: 60px;
+    background-color: #edd9d2;
+    border: 2px solid #E8E8E8;
+    font-size: 14px;
+    color: #737373;
+} 
+.container-contact3 {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+} 
+.image-box-ct {
+    display: block;
+}
+.contact-img2 {
+    max-width: 400px;
+    width: 100%;
+    margin: 50px 0;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;  
+}  
+.contact-img2:hover {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+/* footer*/ 
+.bg {
+    background-color: #766A66;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 120px;
+}
+.container-ft {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+.icon-ft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 52px;
+}
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram-square {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 50px;
+}  
+
+/* Copyright */
+.cr-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 55px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: normal;
+}
