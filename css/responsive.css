@@ -23,15 +23,19 @@
 }
 
 @media (max-width: 1130px) {
-    /*.text-box-vtn*/ 
-    .title-vietnam1,
-    .text-vietnam1 {
+    .title-vietnam1 {
         max-width: 100%;    
         text-align: center;
     }
+    .text-vietnam1 {
+        max-width: 100%;  
+        font-size: 15px;
+        text-align: center;
+    }
     .img-vtn1 {
-        max-width: 100%;
+        max-width: 990px;
         height: auto;
+        align-items: center;
     }
 }
 
@@ -44,7 +48,7 @@
         justify-content: space-between;
         max-width: 100%;
         margin-bottom: 20px;
-        }
+    }
     .poto1,
     .poto2 {
         background-color: none;
@@ -58,27 +62,6 @@
     .title-1 {
         font-size: 30px;
         text-align: center;
-    }
-}
-
-@media (max-width: 936px) {  
-    .img-vtn2,
-    .img-br4 {
-        display: none;
-    }
-    .img-vtn1 {
-        max-width: 100%;
-        height: auto;
-    } 
-    .text-br1 {
-        max-width: 100%;
-        text-align: center;
-    }
-    .title-br4,
-    .text-br4, 
-    .img-br5,
-    .head-br1 {
-        align-items: center;
     }
 }
 
@@ -108,7 +91,7 @@
 }
 
 
-@media (max-width: 1064px) {
+@media (max-width: 1066px) {
     .small-box-jp {
         flex-wrap: wrap;
         width: 100%;
@@ -120,7 +103,13 @@
 	    flex-direction: column;
 	    align-items: center;
     }
+    .text-vietnam1 {
+        max-width: 900px;  
+        font-size: 14px;
+        text-align: center;
+    }
 }
+
 
 @media (max-width: 990px) { 
     .poto1,
@@ -150,6 +139,27 @@
 	.text-br4 {
 		max-width: 100%;
 	}
+}
+
+@media (max-width: 936px) {  
+    .img-vtn2,
+    .img-br4 {
+        display: none;
+    }
+    .img-vtn1 {
+        max-width: 100%;
+        height: auto;
+    } 
+    .text-br1 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .title-br4,
+    .text-br4, 
+    .img-br5,
+    .head-br1 {
+        align-items: center;
+    }
 }
 
 @media (max-width: 929px) {
