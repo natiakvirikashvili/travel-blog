@@ -43,6 +43,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         max-width: 100%;
+        margin-bottom: 20px;
         }
     .poto1,
     .poto2 {
@@ -151,7 +152,7 @@
 	}
 }
 
-*@media (max-width: 929px) {
+@media (max-width: 929px) {
     .img-br4 {
     	display: none;
     }
@@ -218,7 +219,7 @@
     }     
 }
 
-*@media (max-width: 723px) {  
+@media (max-width: 723px) {  
     .img-br4,
     .text-br4,
     .img-br5,
@@ -246,14 +247,6 @@
        margin-right: 20px;
     }
 }   
-
-
-
-
-
-
-
-
 
 @media (max-width: 879px) { 
 	.img-1 {
@@ -312,7 +305,8 @@
 }
 
 @media (max-width: 529px) {  
-    .nav-box {
+    .nav-box,
+    .wraper-box2 {
         flex-direction: column-reverse;
         align-items: center;
     }
