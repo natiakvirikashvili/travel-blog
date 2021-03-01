@@ -765,28 +765,36 @@ ul {
     background-color: #F8F8F8;
     border: 2px solid #E8E8E8;
 }
-.text-area::-webkit-input-placeholder, .name-text::-webkit-input-placeholder, .email-tx::-webkit-input-placeholder {
+.text-area::-webkit-input-placeholder, 
+.name-text::-webkit-input-placeholder, 
+.email-tx::-webkit-input-placeholder {
     padding-left: 20px;
     color: #737373;
     font-size: 13px;
     max-width: 282px;
     width: 100%;
 }
-.text-area::-moz-placeholder, .name-text::-moz-placeholder, .email-tx::-moz-placeholder {
+.text-area::-moz-placeholder, 
+.name-text::-moz-placeholder, 
+.email-tx::-moz-placeholder {
     padding-left: 20px;
     color: #737373;
     font-size: 13px;
     max-width: 282px;
     width: 100%;
 }
-.text-area:-ms-input-placeholder, .name-text:-ms-input-placeholder, .email-tx:-ms-input-placeholder {
+.text-area:-ms-input-placeholder, 
+.name-text:-ms-input-placeholder, 
+.email-tx:-ms-input-placeholder {
     padding-left: 20px;
     color: #737373;
     font-size: 13px;
     max-width: 282px;
     width: 100%;
 }
-.text-area::-ms-input-placeholder, .name-text::-ms-input-placeholder, .email-tx::-ms-input-placeholder {
+.text-area::-ms-input-placeholder, 
+.name-text::-ms-input-placeholder, 
+.email-tx::-ms-input-placeholder {
     padding-left: 20px;
     color: #737373;
     font-size: 13px;
@@ -875,7 +883,9 @@ ul {
     display: -ms-flexbox;
     display: flex;
     margin-top: 55px;
-    font-size: 14px;
+}
+.cp-text {
+    font-size: 15px;
     color: #fff;
     font-family: 'Roboto';
     font-weight: normal;
