@@ -15,8 +15,10 @@
 .header-wraper{
     background: #d4bfb8;
     padding: 10px 0;
-    position: relative;
-    margin-bottom: 50px;
+    position: fixed;
+    width: 100%;
+    /* position: relative;
+    margin-bottom: 50px; */
 }
 .wrapper{
     max-width: 1270px;
@@ -28,6 +30,7 @@
 .logo-icon {
     max-width: 50px;
     width: 100%;
+    margin-left: 40px;
 }
 ul {
     padding: 20px 0;
@@ -46,6 +49,10 @@ ul {
     font-weight: bold;
     padding: 7px 15px;
 } 
+.menu-ul a:hover {
+    background: #ddd;
+    color: grey;
+} 
  
 /* main-section 1*/
 .container {
@@ -54,14 +61,14 @@ ul {
     margin: 0 auto;
 }
 .wraper-box-mn {
-    margin: 0 auto;
+    padding-top: 170px;
 }
 .title-1 {
     color: #697666;
     font-size: 70px;
     font-family: 'Caveat', cursive;
     display: block;
-    margin: 80px 0;
+    margin: 60px 0;
     text-align: center; 
 }
 .title-1::before {
@@ -234,6 +241,9 @@ ul {
     width: 100%;
     margin: 0 auto;
 } 
+.box-image2 {
+    padding-top: 170px;
+}
 .img-vtn1 {
     margin: 45px 10px;
 }
@@ -340,7 +350,8 @@ ul {
     margin: 0 auto;
 }
 .one-box-jp {
-    margin-left: 200px;
+    padding-top: 250px;
+    padding-left: 220px;
 }   
 .travel-img {
     max-width: 650px;
@@ -518,6 +529,7 @@ ul {
     margin: 0 auto;
 }
 .wraper-br2 {
+    padding-top: 160px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
