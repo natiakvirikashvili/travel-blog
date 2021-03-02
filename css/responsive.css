@@ -56,9 +56,6 @@
     .text-p {
         text-align: center;
     }
-    .image-mn {
-        display: none;
-    }
     .title-1 {
         font-size: 30px;
         text-align: center;
@@ -160,7 +157,13 @@
     .head-br1 {
         align-items: center;
     }
+    .small-box-br {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
 
 @media (max-width: 929px) {
     .img-br4 {
@@ -174,7 +177,6 @@
        max-width: 100%;
        height: auto;
 	}
-
 }
 
 @media (max-width: 879px) { 
