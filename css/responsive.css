@@ -132,8 +132,8 @@
 	}
 	.wraper-br4,
 	.image-br4 {
-       max-width: 100%;
-       height: auto;
+        max-width: 100%;
+        height: auto;
 	}
 	.text-br1,
 	.text-br4 {
@@ -177,8 +177,8 @@
 @media (max-width: 904px) {
     .wraper-br4,
 	.image-br4 {
-       max-width: 100%;
-       height: auto;
+        max-width: 100%;
+        height: auto;
 	}
 }
 
@@ -312,7 +312,7 @@
         flex-direction: column-reverse;
     }
     .img-jp2 {
-       max-width: 350px;
+        max-width: 350px;
     }
 }  
 
