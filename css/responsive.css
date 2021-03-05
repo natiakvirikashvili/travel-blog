@@ -53,6 +53,9 @@
     .poto2 {
         background-color: none;
     }
+    .wraper2 {
+        background: none;
+    }
     .text-p {
         text-align: center;
     }
@@ -205,6 +208,10 @@
 	}
 	.image-mn {
 		width: auto;
+	}
+    .name-field {
+        flex-direction: column;
+        align-items: center;
 	}
 }	
 
