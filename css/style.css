@@ -16,9 +16,8 @@
     background: #d4bfb8;
     padding: 10px 0;
     position: fixed;
+    z-index: 5;
     width: 100%;
-    /* position: relative;
-    margin-bottom: 50px; */
 }
 .wrapper{
     max-width: 1270px;
@@ -88,12 +87,13 @@ ul {
     margin-left: 10px;
 }
 .image-mn { 
+    max-width: 100%;
     padding: 12px;
     background-color: #ecd5cd;
     border-radius: 7px;
     display: block;
     margin: 0 auto;
-}  
+}   
 .title-2 {
     font-size: 50px; 
     color: #697666;
@@ -242,9 +242,10 @@ ul {
     margin: 0 auto;
 } 
 .box-image2 {
-    padding-top: 170px;
+    padding-top: 190px;
 }
 .img-vtn1 {
+    max-width: 100%;
     margin: 45px auto;
 }
 .title-vietnam1 {
@@ -323,6 +324,9 @@ ul {
 .small-box p { 
     width: 300px;
     text-align: center;
+}
+.small-box:hover {
+    opacity: 0.5;
 }
 .title-vietnam3 {
     color: #463f3d;
@@ -428,6 +432,7 @@ ul {
             flex-direction: column;
 }
 .img-jpn {
+    max-width: 100%;
     border-radius: 30px;
 }
 .text-japan {  
