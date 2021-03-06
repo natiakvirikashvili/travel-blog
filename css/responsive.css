@@ -90,6 +90,12 @@
     }
 }
 
+@media (max-width: 1068px) {
+    .img-vtn2 {
+       margin: 17px 80px;
+    }
+}
+
 @media (max-width: 1066px) {
     .small-box-jp {
         flex-wrap: wrap;
