@@ -347,19 +347,24 @@ ul {
     height: 302px;
  }
 
-/* japan -section 1 */
-.container-jp {
-    max-width: 1070px;
+/*japan - image section */
+.container-jpn {
+    max-width: 650px;
     width: 100%;
     margin: 0 auto;
 }
 .one-box-jp {
     padding-top: 250px;
-    padding-left: 220px;
-}   
+} 
 .travel-img {
     max-width: 650px;
     width: 100%;
+}
+/* japan -section 1 */
+.container-jp {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
 }
 .title-jp1 {
     font-size: 40px;
